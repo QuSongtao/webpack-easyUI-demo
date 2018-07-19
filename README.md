@@ -5,7 +5,7 @@
   > npm config get registry
 4. 初始化环境,只需做一次
   > npm install
-3. 修改了html-webpack-plugin源码
+5. 修改了html-webpack-plugin源码
   > ./node_modules/html-webpack-plugin/index.js 覆盖第549-554行,然后保存即可
 
 ```js
@@ -30,8 +30,10 @@
  }
 ```
 
-4. 开发命令: npm run start
+6. 开发环境启动
+  > 运行 npm run start
 
-5. 生产打包: npm run build
+7. 生产环境打包
+  > 运行 npm run build
 
-欢迎QQ交流: 157195079
+= 欢迎QQ交流: 157195079
