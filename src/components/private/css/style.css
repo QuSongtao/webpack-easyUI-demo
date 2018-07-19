@@ -1,0 +1,1956 @@
+/* loading controller style end */
+/*================================================================================*/
+/*                           重出bootstrap.css                                    */
+/*================================================================================*/
+label, input, button, select, textarea {
+    font-size: 12px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    font-size: 12px;
+}
+
+.navbar .container {
+    width: 70%;
+}
+
+legend {
+    line-height: 25px;
+    font-size: 12px;
+    border: 0;
+}
+
+.table th, .table td {
+    border: 0;
+}
+
+.btn-info {
+    background: #407DD1;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+    background-color: #407DD1;
+}
+
+.breadcrumb {
+    padding: 6px 15px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.dropdown-menu > li > a {
+    border: 0;
+}
+
+.panel-default > .panel {
+    text-align: left;
+}
+
+ul li, ul {
+    display: inline-block;
+}
+
+.panel-heading {
+    /*text-align: left;*/
+}
+
+/*=============================代办的样式=====================*/
+.agencyBox {
+    padding: 0;
+    height: 370px;
+    margin-left: 0.2%;
+    /*margin-left: 4px;*/
+    margin-top: 10px;
+    width: 66.3%;
+    overflow: hidden;
+}
+
+.agencyBox > div {
+
+    padding: 0;
+    margin: 0;
+    height: 371px;
+    /* margin: 0 0 0 -10px; */
+    /* padding: 10px 0 0 0; */
+    background: #fff;
+}
+
+.agencyBox .nav-tabs {
+    width: 100%;
+    height: 27px;
+}
+
+.agencyBox .nav-tabs li {
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    background-color: #f0f0f0;
+    width: 96px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.agencyBox .nav-tabs li a {
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    line-height: 25px;
+    color: #666;
+    cursor: pointer;
+}
+
+.agencyBox .nav-tabs li.active {
+    border: 0;
+    border-top: 1px solid #407DD1;
+    background-color: #ffffff;
+    margin: 1px 0;
+}
+
+.agencyBox .nav-tabs li.active a {
+    color: #407DD1;
+    cursor: pointer;
+}
+
+.agencyBox .title {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 0 0 0;
+    color: #999;
+}
+
+.agencyBox .full-screen {
+    padding: 0 0 0 0;
+    text-align: -webkit-right;
+}
+
+.agencyBox .icon-shiyingpingmu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #555;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.agencyBox .agencyBox-tab {
+    padding-top: 40px;
+}
+
+.agencyBox .hidden {
+    display: none;
+}
+
+.agencyFullBox {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    z-index: 9009;
+    padding: 10px;
+}
+
+.agencyFullBox > div {
+    background: #fff;
+    padding: 12px 20px;
+    height: 100%;
+}
+
+.agencyFullBox .row.topper {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.agencyFullBox .search-box {
+    padding-top: 17px;
+}
+
+.agencyFullBox .nav-tabs {
+    width: 100%;
+    height: 27px;
+}
+
+.agencyFullBox .nav-tabs li {
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    background-color: #f0f0f0;
+    width: 96px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.agencyFullBox .nav-tabs li a {
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    line-height: 25px;
+    color: #666;
+    cursor: pointer;
+}
+
+.agencyFullBox .nav-tabs li.active {
+    border: 0;
+    border-top: 1px solid #407DD1;
+    background-color: #ffffff;
+    margin: 1px 0;
+}
+
+.agencyFullBox .nav-tabs li.active a {
+    color: #407DD1;
+}
+
+.agencyFullBox .title {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    font: 24px bold;
+}
+
+.agencyFullBox .full-screen {
+    padding: 0;
+}
+
+.agencyFullBox .icon-suoxiao_huanyuan {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #555;
+    font-size: 18px;
+    cursor: pointer;
+    float: right;
+    margin-top: 2px;
+}
+
+.agencyFullBox .icon-suoxiao_huanyuan:after {
+    clear: both;
+}
+
+.agencyFullBox .agencyBox-tab {
+    padding-top: 20px;
+    height: 81%;
+    overflow-y: auto;
+}
+
+.agencyFullBox .hidden {
+    display: none;
+}
+
+.agencyFullBox .screen {
+    display: none;
+}
+
+.agencyFullBox .lbl {
+    display: inline-block;
+    width: 38%;
+    color: #ccc;
+}
+
+.agencyFullBox .ivu-select, .agencyFullBox .ivu-date-picker {
+    width: 60%;
+}
+
+.agencyFullBox #createTime div {
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.agencyFullBox .form-control {
+    width: 126px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+    border-radius: 0;
+}
+
+.agencyFullBox #createTime input {
+    border-right: 0;
+    width: 63px;
+}
+
+.agencyFullBox .form-group {
+    margin-right: 24px;
+}
+
+.agencyFullBox .form-group label {
+    margin-right: 10px;
+}
+
+.agencyFullBox button {
+    width: 72px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    border-radius: 0;
+}
+
+.agencyFullBox .navbar-fixed-bottom {
+    left: 20%;
+}
+
+.agencyFullBox .navbar-fixed-bottom li a {
+    background-color: #f0f0f0;
+    color: #999;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+}
+
+.agencyFullBox .navbar-fixed-bottom .select a {
+    background-color: #407DD1;
+    color: #fff;
+    border: 1px solid #407DD1;
+}
+.row.agency-tab{
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    bottom: 17px;
+    width: 100%;
+}
+.agencyBox table tr,
+.agencyBox table tr td,
+.agencyFullBox table tr,
+.agencyFullBox table tr td{
+    cursor: pointer;
+}
+
+/*=============================代办的样式=====================*/
+/*============================= start 组件的样式=====================*/
+.eChartsBar {
+    background: #fff;
+    height: auto;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 0.2%;
+}
+
+.eChartsBarWidth66 {
+    width: 66.3%;
+}
+
+.eChartsBarWidth100 {
+    width: 99.7%;
+}
+
+.eChartsBar .title {
+    width: 100%;
+    height: 40px;
+    color: #999;
+    line-height: 40px;
+}
+
+.eChartsBar .secondTitle {
+    width: 90%;
+    position: absolute;
+    z-index: 9;
+}
+
+.eChartsBar .selectData:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #407dd1;
+}
+
+.eChartsBar .otherSelectDa:after {
+    background: #27508d;
+}
+
+.eChartsBar .selectData:hover {
+    cursor: pointer;
+}
+
+.eChartsBar .eChartsBarCavans {
+    width: 100%;
+    height: 321px;
+}
+
+.addComponent {
+    width: 33%;
+    background: rgba(64, 125, 209, 0.4);
+    /*height: auto;*/
+    height: 370px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.addComponent:hover {
+    cursor: pointer;
+}
+
+.addComponent h2 {
+    position: relative;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    top: 50%;
+    margin: -24px auto;
+}
+
+.editComponent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(142, 150, 149, 0.3);
+    z-index: 1000;
+}
+
+.editComponent .popContent {
+    width: 600px;
+    height: 290px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.editComponent header {
+    width: 100%;
+    height: 40px;
+    background: #f0f0f0;
+    line-height: 40px;
+}
+
+.editComponent header span {
+    margin: 0 10px;
+}
+
+.editComponent header span:last-child {
+    float: right;
+    cursor: pointer;
+}
+
+.editComponent .popContent article {
+    padding: 15px 0;
+}
+
+.editComponent .componentStyles label {
+    margin-right: 10px;
+}
+
+.editComponent .componentExterior label {
+    /*width: 50px;*/
+    float: left;
+    height: 100%;
+    margin: 5px 0;
+    padding: 2px 0;
+    border-right: 1px solid transparent;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.editComponent .componentExterior label.active {
+    background: #4cac55;
+    border-right-color: #0b8016;
+}
+
+.editComponent .componentExterior label.active:last-child {
+    border-right-color: transparent;
+}
+
+.editComponent .componentExterior p {
+    background: #0b8016;
+    float: left;
+    width: 7px;
+    height: 23px;
+    margin: 4px 0;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.editComponent .componentExterior p:after,
+.editComponent .componentExterior p:before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 30%;
+    background: #fff;
+    margin: 3px 0 0 3px;
+}
+
+.editComponent .componentExterior input[type=number],
+.editComponent .componentExterior input[type=text] {
+    clear: both;
+    width: 100px;
+    margin: 5px 2px;
+}
+
+.numberIpnutDiv {
+    margin-left: -14px;
+}
+
+.numberIpnutDiv select {
+    height: 21px;
+    padding: 0;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.spaceMoveStyle {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    /*33%*/
+    /*65%*/
+    /*96%*/
+}
+
+.editMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.4);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 22;
+    text-align: center;
+}
+
+.editMask:hover {
+    cursor: pointer;
+    background: rgba(64, 125, 209, 0.4);
+}
+
+.editMask .btn {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.editMask .btn:hover {
+    color: #407dd1;
+}
+
+.editMaskCont {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    top: 50%;
+    margin: -60px auto;
+}
+
+/*============================= end 组件的样式=====================*/
+
+/*============================= start 日历的样式=====================*/
+.calendar-layer {
+    position: fixed;
+    top: 118px;
+    left: 121px;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+    padding: 6px 5px;
+    float: left;
+    background-color: #fff;
+}
+
+.calendar-layer > .opt {
+    text-align: center;
+}
+
+.calendar-layer > .opt > .left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 24px;
+    margin-right: 15px;
+    font-size: 18px !important;
+}
+
+.calendar-layer > .opt > .center {
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.calendar-layer > .opt > .right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 24px;
+    margin-left: 15px;
+    font-size: 18px !important;
+}
+
+.calendar-layer > .opt > .left:hover,
+.calendar-layer > .opt > .right:hover {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #0f7dd4;
+}
+
+.calendar-layer > .title {
+    overflow: hidden;
+}
+
+.calendar-layer > .title > .item {
+    float: left;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.calendar-layer > .body {
+    overflow: hidden;
+}
+
+.calendar-layer > .body > .item {
+    float: left;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+.calendar-layer > .body > .item:hover,
+.calendar-layer > .body > .item.active {
+    color: #fff;
+    background-color: #0f7dd4;
+}
+
+.calendar-layer > .body > .item.other {
+    color: #999;
+}
+
+/*============================= end 日历的样式 end=====================*/
+/*============================= start 基本信息模块的样式 start=====================*/
+.businessPortal {
+    height: 100%;
+}
+
+.businessPortal .basic .iconfont {
+    font-size: 12px;
+}
+
+.businessPortal .common-business {
+    padding: 0 30px;
+}
+
+.businessPortal .common-business p {
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.businessPortal ul .basic {
+    margin-top: 5px;
+}
+
+.businessPortal ul .basic p {
+    height: inherit;
+    line-height: initial;
+    margin: 0;
+}
+
+.businessPortal ul .basic .prompt {
+    position: fixed;
+    background-color: #fff;
+    z-index: 9999;
+    width: 76px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(51, 51, 51, 0.4);
+    margin-left: 10px;
+    font-weight: normal;
+    display: none;
+}
+
+.businessPortal ul .basic div:focus .prompt,
+.businessPortal ul .basic div:hover .prompt {
+    display: inline-block;
+}
+
+.businessPortal ul .basic .prompt:after {
+    content: " ";
+    position: absolute;
+    left: -4px;
+    top: 12px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: #fff;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.businessPortal ul .basic > div {
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.businessPortal .entry ul li {
+    margin-right: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.businessPortal ul li.entry-ul-first {
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+
+.businessPortal .entry ul li div.func-file {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    text-align: left;
+    height: 42px;
+    width: 42px;
+    overflow: hidden;
+}
+
+.businessPortal .entry ul li div.func-file div.iconfont {
+    display: inline-block;
+    font-size: 12px;
+    transform: scale(0.8);
+    width: 49%;
+    text-align: center;
+}
+
+.businessPortal ul li div.text-center {
+    padding: 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.businessPortal ul li.function.hover,
+.businessPortal ul li.funcHover:hover,
+.businessPortal ul li div.text-center:hover,
+.businessPortal ul li div.text-center:focus,
+.businessPortal ul li.funcHover:focus {
+    background-color: #407dd1;
+    color: #ffffff;
+}
+
+.businessPortal ul li.function.hover p,
+.businessPortal ul li.funcHover:hover p,
+.businessPortal ul li div.text-center:hover p,
+.businessPortal ul li div.text-center:focus p,
+.businessPortal ul li.funcHover:focus p {
+    color: #ffffff;
+}
+
+.businessPortal ul.folder {
+    padding: 0;
+}
+
+.businessPortal ul.folder li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.entry {
+    padding-top: 22px;
+    position: absolute;
+    margin-bottom: 200px;
+    overflow-y: auto;
+}
+
+.entryA {
+    height: 70%;
+    width: 100%;
+    margin-right: -30px;
+}
+
+.entryB {
+    height: 89%;
+    width: 100%;
+}
+
+.entry::-webkit-scrollbar {
+    display: none;
+}
+
+.businessPortal .footer {
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    border-top: 1px solid #dcdcdc;
+}
+
+.businessPortal .footer div {
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.businessPortal .input-group {
+    padding-right: 15px;
+}
+
+.businessPortal .entry > ul {
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.businessPortal > nav {
+    border-bottom: 1px solid #DCDCDC;
+    background-color: #ffffff;
+}
+
+.businessPortal .loginOut {
+    background-color: #DB5454;
+    color: #FFFFFF;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    border: 0;
+}
+
+.businessPortal .popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.businessPortal .popup > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 200px;
+    padding: 20px 0;
+    margin-left: -35%;
+    margin-top: -100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.businessPortal .popup > div p{
+    margin: 30px 0;
+}
+
+.businessPortal .popup > div p:first-child{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 0;
+}
+    /* 定制完成后对应的功能包的样式 */
+.showFolder {
+    position: absolute;
+    width: 80%;
+    min-height: 200px;
+    margin: 0 7%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.6);
+
+}
+
+.showFolder div {
+    /*width: 80%;*/
+    border: 0;
+}
+
+.showFolder div.input-group input.form-control {
+    font-size: 16px;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.showFolder div.input-group input.form-control:focus {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.showFolder div.input-group span {
+    background-color: transparent;
+    border: 0;
+}
+
+.showFolder ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*============================= end 基本信息模块的样式 end=====================*/
+
+/*============================= start 功能地图模块 start =====================*/
+.functionMapDiv {
+    position: fixed;
+    top: 0;
+    left: 20%;
+    right: 0;
+    background-color: #ffffff;
+    padding-left: 10px;
+    bottom: 0;
+    margin-left: 10px;
+    overflow-y: scroll;
+}
+
+.functionMap {
+    width: 100%;
+    padding: 35px 48px;
+    min-height: 100%;
+}
+
+.functionMap > div:first-child {
+    border-bottom: 1px solid #dcdcdc;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.functionMap .mapList > p {
+    margin-top: 24px;
+}
+
+.functionMap .mapList ul {
+    padding: 0;
+    width: 100%;
+}
+
+.functionMap .mapList ul li {
+    margin: 5px;
+}
+
+.functionMap .mapList ul li.hover,
+.functionMap .mapList ul li:hover,
+.functionMap .mapList ul li:focus {
+    background-color: #407dd1;
+    color: #ffffff;
+}
+
+.functionMap .mapList ul li.customized {
+    background-color: #aed0ff;
+    border: 1px solid #407DD1;
+}
+
+.functionMap .mapList ul li.hover p,
+.functionMap .mapList ul li:hover p,
+.functionMap .mapList ul li:focus p {
+    color: #ffffff;
+}
+
+/*地图里面列表样式*/
+.functionMap .list {
+    position: absolute;
+    bottom: 5px;
+    top: 84px;
+    right: 0;
+    left: 0;
+}
+
+.functionMap .list .left-tree {
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    border-right: 1px solid #dcdcdc;
+}
+
+
+.functionMap .list .right-list {
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    margin-left: -5px;
+    overflow-y: auto;
+}
+
+.functionMap label {
+    font-weight: normal;
+    text-align: left;
+}
+
+.functionMap .list .iconfont {
+    color: #407DD1;
+    font-size: 32px;
+}
+
+.functionMap .list ul {
+    padding: 0 21px;
+    width: 100%;
+}
+
+.functionMap .list ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    cursor: pointer;
+}
+
+.functionMap .list ul li:focus label p,
+.functionMap .list ul li:hover label p{
+    color:#407DD1;
+}
+
+.functionMap .list ul li label {
+    margin-right: 10px;
+}
+
+.functionMap .list ul li:last-child {
+    border: 0;
+}
+
+.functionMap .list ul li p {
+    margin: 0;
+}
+
+.functionMap .list ul li .position-right {
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    width: 72px;
+    text-align: center;
+    border: 1px solid #407DD1;
+    color: #407DD1;
+    margin: 5px 10px 0 0;
+    cursor: pointer;
+}
+
+.functionMap .list ul li .position-right.select {
+    background-color: #407DD1;
+    color: #ffffff;
+}
+
+.functionMap .input-group {
+    width: 200px;
+}
+
+.functionMap .tree-item .tree-item-icon {
+   position: absolute;
+    background-color: red;
+    display: inline-block;
+    text-align: right;
+    height: 20px;
+    width: 20px;
+}
+
+.functionMap .tree-icon {
+     text-align: right;
+ }
+
+.functionMap .tree-icon .iconfont {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.functionMap .tree-icon label {
+    display: inline-block;
+    background-color: #F0F0F0;
+    margin-right: -5px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 84px;
+    cursor: pointer;
+}
+
+.functionMap .tree-icon label.select {
+    background-color: #407DD1;
+    color: #ffffff;
+}
+
+.functionMap .tree-list ul,
+.functionMap ul.tree-list,
+.functionMap ul.tree-list li,
+.functionMap .tree-label li {
+    display: block;
+    border: 0;
+}
+
+.functionMap ul.tree-list li,
+.functionMap .tree-label li {
+    padding: 5px 0;
+}
+
+.functionMap .list ul.tree-parent-list {
+    padding: 0;
+    margin: 10px 30px;
+}
+
+.functionMap .list ul.tree-parent-list,
+.functionMap ul.tree-list {
+    position: relative;
+    list-style: none;
+    padding-left: 28px;
+}
+
+.functionMap .tree-list .tree-item {
+    position: relative;
+}
+
+.functionMap .tree-list .tree-item:before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 0;
+    bottom: 0;
+    border-left: dashed 1px #e80202;
+}
+
+.functionMap .tree-list .tree-item:last-child:before {
+    height: 12px;
+    bottom: auto;
+}
+
+.functionMap .tree-list .tree-label {
+    display: block;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 28px;
+    font-size: 14px;
+    color: #333;
+}
+
+.functionMap .tree-list .tree-label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -28px;
+    width: 26px;
+    border-bottom: dashed 1px #f00;
+}
+
+.functionMap .tree-list .tree-show-label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    background-size: 9px;
+}
+
+.functionMap .tree-list .tree-check-label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url("../img/util/add.png") center no-repeat;
+    background-size: 9px;
+}
+
+.functionMap .tree-list .tree-check-label.active:after {
+    background: url("../img/util/minus.png") center no-repeat;
+    background-size: 9px;
+}
+
+.functionMap .tree-list .tree-select-label {
+    background: #407dd1;
+    color: #fff;
+}
+
+.functionMap p.font-s24.font-cb.height-25 {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+/*============================= end 功能地图模块 end=====================*/
+
+/*============================= start 新用户模块 start=====================*/
+.listModel {
+    padding: 0 10px;
+    height: auto;
+}
+
+.listModel > div {
+    margin: 0 0 0 -10px;
+    padding: 20px;
+    background: #fff;
+}
+
+.listModel .title {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 0 0 0;
+    color: #999;
+}
+
+.listModel .agencyBox-tab {
+    padding-top: 20px;
+}
+
+/*============================= end 新用户模块 end=====================*/
+
+/*============================= start 登录模块 start =====================*/
+.Login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    background-image: url('../img/util/bg.png');
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.form-control {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.logo-box {
+    position: relative;
+    margin: 20px 30px;
+}
+
+.client-box {
+    cursor: pointer;
+}
+
+.client-box a:visited {
+    color: white;
+}
+
+.client-box a:hover {
+    color: orange;
+}
+
+.client-box a:link {
+    color: white;
+}
+
+.login-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 400px;
+    height: 565px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+    z-index: 10;
+    background: #fff;
+    padding: 35px 35px 15px;
+    color: #427dd1;
+    text-align: center;
+
+    -webkit-box-shadow: 0 12px 26px -8px rgba(5, 13, 39, 0.6);
+    -moz-box-shadow: 0 12px 26px -8px rgba(5, 13, 39, 0.6);
+    box-shadow: 0 12px 26px -8px rgba(5, 13, 39, 0.6);
+}
+
+.login-wrapper .control-group label {
+    float: left;
+    cursor: default;
+}
+
+.footer {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(123, 143, 175);
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    z-index: 5;
+}
+
+.footer a {
+    color: rgb(124, 84, 76);
+    cursor: default;
+}
+
+.login-wrapper .header h3 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    line-height: inherit;
+}
+
+.login-wrapper .header h4 {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: inherit;
+}
+
+.msg-group {
+    height: 20px;
+    border: 1px solid transparent;
+}
+
+.msg-group > p {
+    font-size: 14px;
+    color: rgb(237, 127, 94);
+}
+
+.msg-group.show {
+    -webkit-transition: opacity 5s;
+    opacity: 0;
+    pointer-events: auto;
+}
+
+.login-wrapper .btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    margin-top: 15px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #427dd1;
+    border: none;
+}
+
+.login-wrapper .btn-login .text {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 7px;
+}
+
+@media screen and (max-width: 1500px) {
+    form {
+        margin-top: -3px;
+    }
+
+    .login-wrapper {
+        width: 330px;
+        height: 467px;
+        padding: 24px 30px 13px;
+        top: 0;
+    }
+
+    .login-wrapper .header h3 {
+        font-size: 28px;
+    }
+
+    .login-wrapper .header h4 {
+        font-size: 12px;
+    }
+
+    .login-wrapper .header img {
+        height: 80px;
+        width: 80px;
+        margin: 13px 13px 1px;
+    }
+
+    .login-wrapper .control-group {
+        margin-bottom: 16px;
+    }
+
+    .login-wrapper .msg-group {
+        margin: -6px 0 -3px;
+    }
+
+    .login-wrapper .btn {
+        height: 50px;
+    }
+
+    .login-wrapper .btn .text {
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+
+/*============================= end 登录模块 end =====================*/
+
+/*============================= start 提示信息模块 start =====================*/
+.prompt {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+/*============================= end 提示信息模块 end =====================*/
+
+/*============================= start 修改密码模块 start =====================*/
+.pwdTpl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 999999;
+}
+
+.pwdTpl > div {
+    position: absolute;
+    height: 400px;
+    width: 480px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -240px;
+    background-color: #ffffff;
+}
+
+.pwdTpl > div p.title {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.pwdTpl > div p.title span {
+    float: right;
+    font-size: 12px;
+    color: #9999;
+    cursor: pointer;
+}
+
+.pwdTpl > div .form-group {
+    display: block;
+    width: 70%;
+    margin: 26px auto 0;
+}
+
+.pwdTpl > div .form-group label {
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    width: 30%;
+    text-align: right;
+}
+
+.pwdTpl > div .form-group input {
+    width: 65%;
+}
+
+.pwdTpl > div button {
+    width: 64px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.pwdTpl > div button[type=submit] {
+    background-color: #407DD1;
+    color: #ffffff;
+}
+
+.pwdTpl > div .prompt {
+    font-size: 12px;
+    color: #843534;
+    text-align: center;
+    background: transparent;
+}
+
+/*============================= end 修改密码模块 end =====================*/
+
+/*============================= start 珙县电力模块 start =====================*/
+.mapPower {
+    padding: 0;
+    margin-left: 0.2%;
+    /*margin-left: 4px;*/
+    margin-top: 10px;
+    width: 66.3%;
+    overflow: hidden;
+    height: 751px;
+    background: #fff;
+}
+
+.mapArea {
+    float: left;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
+.mapArea h3 {
+    margin-left: 20px;
+    width: 100px;
+}
+
+.mapAreaTwo {
+    width: 52%;
+}
+
+.mapAreaTwo img {
+    display: block;
+    height: 80%;
+    margin: 10% auto;
+    transform: scale(1);
+}
+
+.mapAreaThree {
+    width: 33%;
+    float: right;
+}
+
+.mapAreaThree .mapAreaThreeDIV {
+    width: 96%;
+    margin-left: 2%;
+    box-shadow: 0px 0px 8px #67676b;
+    height: 350px;
+    /*margin-top: 5px;    */
+    margin-top: 13px;
+}
+
+.mapAreaOne {
+    width: 15%;
+}
+
+.lengendImg {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.lengendImg img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mapAreaOne ul, .mapAreaOne h5 {
+    width: 100%;
+    padding: 0;
+    /*margin-left: 10px;*/
+}
+
+.mapAreaOne li {
+    width: 90%;
+    margin: 5px auto;
+    margin-left: 5%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 2px #ccced1;
+}
+
+.mapAreaOne li:hover {
+    width: 100%;
+    background: rgba(64, 125, 209, 0.76);
+    margin-left: 0;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px #67676b;
+}
+
+.mapInformation {
+    width: 96%;
+    margin-left: 2%;
+    height: 100%;
+}
+
+.mapInformation ul, .mapInformation ul li {
+    width: 100%;
+    padding: 0;
+}
+
+.mapInformation h5 {
+    height: 28px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.mapInformation .img img {
+    width: 100%;
+    height: 75px;
+}
+
+.mapInformationLists {
+    width: 100%;
+    padding: 0;
+}
+
+.mapInformationLists li span, .manageInformation li span {
+    font-size: 12px;
+}
+
+.mapInformationLists li:first-child {
+    margin-top: 5px;
+}
+
+.manageInformation .mapInformation ul {
+    margin-top: -5px;
+}
+
+.managePower {
+    margin-top: -4px;
+}
+
+.mapAreaOne .clickLiStyle {
+    width: 100%;
+    background: #407dd1;
+    margin-left: 0;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px #67676b;
+}
+
+/*============================= end 珙县电力模块 end =====================*/
+
+/*============================= start 新闻模块 start =====================*/
+.news {
+    float: right;
+    height: 751px;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 0.2%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.news .news-title {
+    padding: 20px 0;
+    margin: 0 10px 10px;
+}
+
+.news .iconfont {
+    font-size: 12px;
+}
+
+.news .notData {
+    text-align: center;
+    line-height: 700px;
+    color: #DB5454;
+}
+
+.news ul {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.news ul li {
+    /*margin-top: 38px;*/
+    padding: 0 10px;
+}
+
+.news ul li a.news-href {
+    color: #666;
+}
+
+.news ul li a.news-href:hover,
+.news ul li a.news-href:focus {
+    color: #407DD1;
+}
+
+.news ul li img {
+    height: 240px;
+    overflow: hidden;
+}
+
+.news ul li p {
+    margin-bottom: 5px;
+}
+
+.news ul li label {
+    background-color: #DCE6F0;
+    width: 23%;
+    margin-left: 1%;
+}
+
+.news ul li label p {
+    margin-bottom: 10px;
+}
+
+.news ul li .content {
+    text-indent: 2em;
+    margin-top: 10px;
+
+}
+
+.rightModelPadding {
+    padding-top: 110px;
+}
+
+.noneComponentListData {
+    float: right;
+    width: 33%;
+    background: rgba(64, 125, 209, 0.4);
+    height: 370px;
+    margin-top: 10px;
+    margin-left: 0.2%;
+}
+
+.noneComponentListData h3 {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 40%;
+    width: 120px;
+}
+
+.news ul li {
+    width: 100%;
+}
+
+.news ul li p.brief {
+    text-indent: 2em;
+    margin-top: 16px;
+    line-height: 20px;
+}
+
+.news ul li p .hex {
+    margin-right: 10px;
+}
+
+.news ul li p.news-list {
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.news ul li p .text-right {
+    position: absolute;
+    right: 10px;
+}
+
+/*============================= end 新闻模块 end =====================*/
+
+/*============================= start 天气模块 start =====================*/
+.weather {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+}
+
+.weatherEditMask {
+    position: fixed;
+    width: 80%;
+    z-index: 25;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+    top: -5px;
+}
+
+.weather .weatherText {
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+.weather .notData {
+    text-align: center;
+    line-height: 100px;
+    color: #DB5454;
+}
+
+.weather label {
+    line-height: 35px;
+    text-align: center;
+}
+
+.weather label:first-child p:first-child {
+    font-size: 20px;
+}
+
+.weather label:last-child {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.weather label p {
+    margin: 0 0;
+}
+
+.weather label .picture {
+    float: left;
+    margin-right: 10px;
+}
+
+.weather .pictureLabel {
+    border-right: 1px solid #dcdcdc;
+}
+
+.weather .tipt p {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.weather .setComponent p {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+.weather .setComponent p:hover {
+    cursor: pointer;
+}
+
+.weather .setComponent .startEditMaskBtn {
+    background: rgb(255, 255, 255);
+}
+
+.cancleEditMaskBtn {
+    color: #fff;
+    background: #4cac55;
+}
+
+/*============================= end 天气模块 end =====================*/
+
+/*============================= start 首页的基本样式 start =====================*/
+.homePage {
+    background-color: #dce6f0;
+    min-height: 100%;
+    height: auto;
+    padding: 0 10px 50px;
+    overflow-x: hidden;
+}
+
+.homePage .fixed-right {
+    background-color: #dce6f0;
+    height: 100%;
+    margin-left: 20%;
+}
+
+/*============================= end 首页的基本样式 end =====================*/
+
+.tree-list ul,
+ul.tree-list,
+ul.tree-list li,
+.tree-label li {
+    display: block;
+    border: 0;
+}
+
+ul.tree-list li,
+.tree-label li {
+    padding: 5px 0;
+}
+
+.list ul.tree-parent-list {
+    padding: 0;
+    margin: 10px 30px;
+}
+
+.list ul.tree-parent-list,
+ul.tree-list {
+    position: relative;
+    list-style: none;
+    padding-left: 28px;
+}
+
+.tree-list .tree-item {
+    position: relative;
+}
+
+.tree-list .tree-item:before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 0;
+    bottom: 0;
+    border-left: dashed 1px #e80202;
+}
+
+.tree-list .tree-item:last-child:before {
+    height: 12px;
+    bottom: auto;
+}
+
+.tree-list .tree-label {
+    display: block;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 28px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tree-list .tree-label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -28px;
+    width: 26px;
+    border-bottom: dashed 1px #f00;
+}
+
+.tree-list .tree-show-label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    background-size: 9px;
+}
+
+.tree-list .tree-check-label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url("../img/util/add.png") center no-repeat;
+    background-size: 9px;
+}
+
+.tree-list .tree-check-label.active:after {
+    background: url("../img/util/minus.png") center no-repeat;
+    background-size: 9px;
+}
+
+.tree-list .tree-select-label {
+    background: #407dd1;
+    color: #fff;
+}
