@@ -33,9 +33,9 @@ let plugins = [
     // 基础组件拷贝
     new CopyWebpackPlugin([
         {from: 'src/components/easyui/jquery.min.js', to: 'components/easyui/jquery.min.js'},
-        {from: 'src/components/easyui/jquery.easyui.min.js', to: 'components/easyui/jquery.easyui.min.js'},
-        {from: 'src/components/easyui/exp', to: 'components/easyui/exp', toType: 'dir'},
-        {from: 'src/components/private/js/configApp.js', to: 'components/private/js/configApp.js'}
+        {from: 'src/components/easyui/jquery.easyui.min.js', to: 'components/easyui/jquery.easyui.min.js'}
+        // {from: 'src/components/easyui/exp', to: 'components/easyui/exp', toType: 'dir'},
+        // {from: 'src/components/private/js/configApp.js', to: 'components/private/js/configApp.js'}
     ], {})
 ];
 
@@ -143,22 +143,6 @@ module.exports = {
             easyuiBase: path.resolve(__dirname, './src/components/easyui/themes/material/easyui.css'),   // easyUI主样式
             easyuiIcon: path.resolve(__dirname, './src/components/easyui/themes/icon.css'),              // easyUI图标样式
             easyuiColor: path.resolve(__dirname, './src/components/easyui/themes/color.css'),            // easyUI颜色样式
-            awesome: path.resolve(__dirname, './src/components/awesome/css/font-awesome.min.css'),       // 字体样式
-            iconFont: path.resolve(__dirname, './src/components/private/css/iconfont.css'),              // 图标字体样式
-            common: path.resolve(__dirname, './src/components/private/css/common.css'),                  // 公共样式1
-            expCommon: path.resolve(__dirname, './src/components/private/css/exp-common.css'),           // 公共样式1
-            expEasyUIStyle: path.resolve(__dirname, './src/components/private/css/exp-easyui.css'),      // 扩展easyUI样式
-            expEasyUIStyleHy: path.resolve(__dirname, './src/components/private/css/exp-easyui-hy.css'), // 扩展easyUI样式
-
-            // 登录页面样式
-            allCss: path.resolve(__dirname, './src/components/private/css/all.css'),
-            styleCss: path.resolve(__dirname, './src/components/private/css/style.css'),
-            bstrap: path.resolve(__dirname, './src/components/private/css/bootstrap.css'),
-            animation: path.resolve(__dirname, './src/components/private/css/animation.css'),
-
-            // 测试样例
-            style: path.resolve(__dirname, './src/style.css'),   // 测试1
-            style2: path.resolve(__dirname, './src/style2.css'), // 测试2
         }
     }
 };
